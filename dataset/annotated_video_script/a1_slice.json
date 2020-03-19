@@ -1,0 +1,102 @@
+{
+  "data": [{
+    "path": "./dataset/annotated_video/a1_slice/chop1.mp4",
+    "categories":["chop"]
+  }, {
+    "path": "./dataset/annotated_video/a1_slice/chop2.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop3.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop4.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop5.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop6.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop7.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop8.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop9.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop10.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop11.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop12.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/chop13.mp4",
+    "categories":["chop"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun1.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun2.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun3.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun4.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun5.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun6.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun7.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun8.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun9.mp4",
+    "categories":["gun"]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun10.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun11.mp4",
+    "categories":[]
+  },
+    {
+    "path": "./dataset/annotated_video/a1_slice/gun12.mp4",
+    "categories":[]
+  }
+  ]
+}
