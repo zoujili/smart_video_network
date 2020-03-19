@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f812188-a96d-4958-a810-8da94ec52437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/predict_summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/network/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/opticial_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/opticial_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +34,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/assert" />
       <recent name="$PROJECT_DIR$/output/checkpoint" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/output" />
       <recent name="$PROJECT_DIR$/docs/train_summary" />
-      <recent name="$PROJECT_DIR$/dataset/annotated_video_script" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
@@ -192,22 +185,22 @@
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="1045" y="447" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173@67.27.1853.1173" timestamp="1584601943258" />
-    <state width="1830" height="238" key="GridCell.Tab.0.bottom" timestamp="1584612239120">
+    <state width="1830" height="238" key="GridCell.Tab.0.bottom" timestamp="1584613064519">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584612239120" />
-    <state width="1830" height="238" key="GridCell.Tab.0.center" timestamp="1584612239120">
+    <state width="1830" height="238" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064519" />
+    <state width="1830" height="238" key="GridCell.Tab.0.center" timestamp="1584613064518">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584612239120" />
-    <state width="1830" height="238" key="GridCell.Tab.0.left" timestamp="1584612239119">
+    <state width="1830" height="238" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064518" />
+    <state width="1830" height="238" key="GridCell.Tab.0.left" timestamp="1584613064517">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584612239119" />
-    <state width="1830" height="238" key="GridCell.Tab.0.right" timestamp="1584612239120">
+    <state width="1830" height="238" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064517" />
+    <state width="1830" height="238" key="GridCell.Tab.0.right" timestamp="1584613064519">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584612239120" />
+    <state width="1830" height="238" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064519" />
     <state width="1830" height="299" key="GridCell.Tab.1.bottom" timestamp="1584612182277">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>

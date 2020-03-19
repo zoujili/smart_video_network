@@ -4,27 +4,9 @@
 - CUDA 10.0
 - FFmpeg
 # Demo
-- Shooting
+  ![alt text](docs/assert/shooting.gif "demo")     ![alt text](docs/assert/chop.gif "demo")   ![alt text](docs/assert/run.gif "demo")
+  ![alt text](docs/assert/chests.gif "demo")     ![alt text](docs/assert/switch_gun.gif "demo")
 
-  ![alt text](docs/assert/shooting.gif "demo")
-
-- Chop
-
-  ![alt text](docs/assert/chop.gif "demo")
-  
-- Run
-
-  ![alt text](docs/assert/run.gif "demo")
-  
-- Chests
-
-  ![alt text](docs/assert/chests.gif "demo")
-  
-- Switch Gun
-
-  ![alt text](docs/assert/switch_gun.gif "demo")
-  
-     
 # Method
 - LRCN
 
