@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+import os
 from skimage.transform import resize
 
 def image_seq_to_optical_flow(image_list):
@@ -21,20 +21,19 @@ def image_seq_to_optical_flow(image_list):
         # cv2.imshow(str(i),dense_flow)
         result.append(dense_flow)
     return result
-#
-# path = '00006_others.npy'
-# data = np.load(path)
-# a = image_seq_to_optical_flow(data)
-# cv2.waitKey(0)
 
-#
-# path = '/home/ubuntu/jili/ai_project/video_to_seq_rnn/data/np_image_seq//2019-12-20-13-55-17_jili/00145_chests.npy'
-# data = np.load(path)
-#
-# i = 0
-# for item in data:
-#     i = i + 1
-#     cv2.imshow(str(i), item)
-#
-#
-# cv2.waitKey(0)
+
+if __name__ == '__main__':
+    os.chdir('./../../')
+    path = './dataset/extracted_sequence/2019-12-20-13-55-16_jili/00006.npy'
+    data = np.load(path)
+    i = 0
+    for item in data:
+        i = i + 1
+        cv2.imshow(str(i), item)
+
+    # a = image_seq_to_optical_flow(data)
+    cv2.waitKey(0)
+
+
+

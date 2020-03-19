@@ -31,7 +31,7 @@ def threadsafe_generator(func):
 
 
 class DataSet:
-    def __init__(self, src):
+    def __init__(self, src=util.SCRIPT_EXTRACT_SEQ_SPLIT_PATH):
         self.data = self.load_data(src)
 
     @staticmethod

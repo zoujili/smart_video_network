@@ -2,7 +2,7 @@ import sys
 
 import tensorflow as tf
 from keras import backend as K
-from keras.applications import MobileNetV2, VGG19
+from keras.applications import MobileNetV2, VGG19, MobileNet
 from keras.layers import CuDNNLSTM
 from keras.layers import Dense, Flatten, Dropout, GlobalAveragePooling2D
 from keras.layers.convolutional import (Conv2D, MaxPooling3D, Conv3D,
@@ -153,7 +153,7 @@ class MLModel:
 
         model.add(
             TimeDistributed(
-                MobileNetV2(weights='imagenet', include_top=False),
+                MobileNet(weights='imagenet', include_top=False),
                 input_shape=self.input_shape  # 5 images...
             )
         )

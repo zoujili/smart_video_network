@@ -2,8 +2,8 @@ from sklearn.manifold import MDS
 import matplotlib.pyplot as plt
 from src.data import DataSet
 from keras.models import load_model
-import numpy as np
-from sklearn import metrics
+import os
+
 
 def mds_and_plot(model):
 
@@ -32,10 +32,12 @@ def mds_and_plot(model):
     plt.show()
 
 
+if __name__ == '__main__':
+    os.chdir('./../../')
+    saved_rnn_model_path = './output/checkpoint/v1.hdf5'
+    model = load_model(saved_rnn_model_path)
+    mds_and_plot(model)
 
-saved_rnn_model_path = '/home/ubuntu/jili/ai_project/video_to_seq_rnn/output/checkpoint/lrcn.v1.hdf5'
-model = load_model(saved_rnn_model_path)
-mds_and_plot(model)
 
 
 
