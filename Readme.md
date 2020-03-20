@@ -149,9 +149,9 @@ If you want to change any parameter, you can find it in train.py file
 
 ![image](docs/assert/vgg19.png)
 
-- Cluster
+- Cluster(Each color corresponds to a category)
 
-![image](docs/assert/cluster_b5_lstm256.png)
+![image](docs/assert/cluster.png)
 
 
 # Tool

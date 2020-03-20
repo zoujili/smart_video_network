@@ -2,21 +2,25 @@ from sklearn.manifold import MDS
 import matplotlib.pyplot as plt
 from src.data import DataSet
 from keras.models import load_model
+from keras.models import Model
 import os
 
 
 def mds_and_plot(model):
 
     data = DataSet()
-    x, y , data_list= data.get_test_frames()
-    y_pred = model.predict(x)
+    x, y , data_list= data.get_test_frames('train')
 
-
+    custom_model = Model(
+        inputs=model.input,
+        outputs=model.get_layer('dense_1').output
+    )
+    y_pred = custom_model.predict(x)
     mds = MDS()
     mds.fit(y_pred)
     a = mds.embedding_
 
-    mark = ['or', 'ob', 'og', 'ok', '^r', '+r', 'sr', 'dr', '<r', 'pr']
+    mark = ['or', 'ob', 'og', 'oy', 'ok', '+r', 'sr', 'dr', '<r', 'pr']
     color = 0
     j = 0
     for item in y:
@@ -36,6 +40,7 @@ if __name__ == '__main__':
     os.chdir('./../../')
     saved_rnn_model_path = './output/checkpoint/v1.hdf5'
     model = load_model(saved_rnn_model_path)
+    model.summary()
     mds_and_plot(model)
 
 

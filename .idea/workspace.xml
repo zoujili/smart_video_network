@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f812188-a96d-4958-a810-8da94ec52437" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/knn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/assert" />
       <recent name="$PROJECT_DIR$/output/checkpoint" />
+      <recent name="$PROJECT_DIR$/docs/assert" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/output" />
       <recent name="$PROJECT_DIR$/docs/train_summary" />
@@ -47,7 +47,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.predict">
+  <component name="RunManager" selected="Python.knn">
     <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="smart_video_network" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.knn" />
         <item itemvalue="Python.predict" />
         <item itemvalue="Python.opticial_flow" />
-        <item itemvalue="Python.knn" />
         <item itemvalue="Python.test_network" />
         <item itemvalue="Python.train" />
       </list>
@@ -185,38 +185,38 @@
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="1045" y="447" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173@67.27.1853.1173" timestamp="1584601943258" />
-    <state width="1830" height="238" key="GridCell.Tab.0.bottom" timestamp="1584613064519">
+    <state width="1830" height="337" key="GridCell.Tab.0.bottom" timestamp="1584669332315">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064519" />
-    <state width="1830" height="238" key="GridCell.Tab.0.center" timestamp="1584613064518">
+    <state width="1830" height="337" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584669332315" />
+    <state width="1830" height="337" key="GridCell.Tab.0.center" timestamp="1584669332315">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064518" />
-    <state width="1830" height="238" key="GridCell.Tab.0.left" timestamp="1584613064517">
+    <state width="1830" height="337" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584669332315" />
+    <state width="1830" height="337" key="GridCell.Tab.0.left" timestamp="1584669332315">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064517" />
-    <state width="1830" height="238" key="GridCell.Tab.0.right" timestamp="1584613064519">
+    <state width="1830" height="337" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584669332315" />
+    <state width="1830" height="337" key="GridCell.Tab.0.right" timestamp="1584669332315">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="238" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584613064519" />
-    <state width="1830" height="299" key="GridCell.Tab.1.bottom" timestamp="1584612182277">
+    <state width="1830" height="337" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584669332315" />
+    <state width="1830" height="299" key="GridCell.Tab.1.bottom" timestamp="1584668804201">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="299" key="GridCell.Tab.1.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584612182277" />
-    <state width="1830" height="299" key="GridCell.Tab.1.center" timestamp="1584612182277">
+    <state width="1830" height="299" key="GridCell.Tab.1.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1584668804201" />
+    <state width="1830" height="299" key="GridCell.Tab.1.center" timestamp="1584668804200">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="299" key="GridCell.Tab.1.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584612182277" />
-    <state width="1830" height="299" key="GridCell.Tab.1.left" timestamp="1584612182277">
+    <state width="1830" height="299" key="GridCell.Tab.1.center/67.27.1853.1173@67.27.1853.1173" timestamp="1584668804200" />
+    <state width="1830" height="299" key="GridCell.Tab.1.left" timestamp="1584668804200">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="299" key="GridCell.Tab.1.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584612182277" />
-    <state width="1830" height="299" key="GridCell.Tab.1.right" timestamp="1584612182277">
+    <state width="1830" height="299" key="GridCell.Tab.1.left/67.27.1853.1173@67.27.1853.1173" timestamp="1584668804200" />
+    <state width="1830" height="299" key="GridCell.Tab.1.right" timestamp="1584668804200">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1830" height="299" key="GridCell.Tab.1.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584612182277" />
+    <state width="1830" height="299" key="GridCell.Tab.1.right/67.27.1853.1173@67.27.1853.1173" timestamp="1584668804200" />
     <state x="543" y="300" width="890" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584594794526">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
@@ -247,6 +247,11 @@
           <url>file://$PROJECT_DIR$/src/predict.py</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/tools/knn.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
